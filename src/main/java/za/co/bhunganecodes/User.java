@@ -23,4 +23,25 @@ public class User {
         this.isAmazing = true;
     }
 
+    public String getName(){return name;}
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public boolean getIsAmazing() {
+        return isAmazing;
+    }
+
+    public void setAmazing(boolean amazing) {
+        isAmazing = amazing;
+    }
 }

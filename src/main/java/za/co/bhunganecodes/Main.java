@@ -15,6 +15,12 @@ class Main {
         System.out.print("Are you amazing? (true/false): ");
         boolean isAmazing = scanner.nextBoolean();
 
+        User user = new User(name, age);
+
+        System.out.println(user.getAge());
+        System.out.println(user.getName());
+        System.out.println(user.getIsAmazing());
+
         scanner.close();
     }
 }
