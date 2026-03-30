@@ -22,6 +22,7 @@ class Main {
 
         System.out.println(user.getAge());
         System.out.println(user.getName());
+        System.out.println(user.getHeight());
         System.out.println(user.getIsAmazing());
 
         scanner.close();
