@@ -5,6 +5,12 @@ class Person {
     private int age;
     private double height;
 
+    Person(String name){
+        this.setName(name);
+        this.age = 0;
+        this.height = 0.0;
+    }
+
     Person(String name, int age, double height){
         this.setName(name);
         this.setAge(age);

@@ -12,10 +12,13 @@ class Main {
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 
+        System.out.print("How tall are you?: ");
+        double height = scanner.nextDouble();
+
         System.out.print("Are you amazing? (true/false): ");
         boolean isAmazing = scanner.nextBoolean();
 
-        User user = new User(name, age);
+        User user = new User(name, age, height);
 
         System.out.println(user.getAge());
         System.out.println(user.getName());
